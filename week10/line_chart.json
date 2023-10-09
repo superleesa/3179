@@ -1,0 +1,135 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "cpi_g7.csv"
+    },
+    "title":"Changes in CPI for G7 Countries, from 2015 to 2022",
+    "params": [
+        {
+        "name": "Attribute_selection",
+        "value":"CPI: 01-12 - All items",
+        "bind": {
+        "input": "select",
+        "options": ["CPI: 01-12 - All items",
+        "CPI: 01 - Food and non-Alcoholic beverages",
+        "CPI: 02 - Alcoholic beverages, tobacco and narcotics",
+        "CPI: 03 - Clothing and footwear",
+        "CPI: 04 - Housing, water, electricity, gas and other fuels",
+        "CPI: 05 - Furnishings, household equipment and routine household maintenance",
+        "CPI: 06 - Health",
+        "CPI: 07 - Transport",
+        "CPI: 08 - Communication",
+        "CPI: 09 - Recreation and culture",
+        "CPI: 10 - Education",
+        "CPI: 11 - Restaurants and hotels",
+        "CPI: 12 - Miscellaneous goods and services"],
+        "labels":["CPI: 01-12 - All items",
+        "CPI: 01 - Food and non-Alcoholic beverages",
+        "CPI: 02 - Alcoholic beverages, tobacco and narcotics",
+        "CPI: 03 - Clothing and footwear",
+        "CPI: 04 - Housing, water, electricity, gas and other fuels",
+        "CPI: 05 - Furnishings, household equipment and routine household maintenance",
+        "CPI: 06 - Health",
+        "CPI: 07 - Transport",
+        "CPI: 08 - Communication",
+        "CPI: 09 - Recreation and culture",
+        "CPI: 10 - Education",
+        "CPI: 11 - Restaurants and hotels",
+        "CPI: 12 - Miscellaneous goods and services"],
+        "name": "Select CPI Subject: "
+        }
+        }
+        ],
+    "transform": [{"filter": "Attribute_selection == null || datum.Subject== Attribute_selection"}],
+    "width": 600,
+    "height": 400,
+    "layer": [
+      {
+        "encoding": {
+          "x": {"field": "Year", "type": "ordinal", "axis": {"title": "Year", "labelAngle":30, "titleFont":"Roboto", "labelFont":"Roboto", "titleFontSize":15,"labelFontSize":12}},
+          "y": {"field": "CPI", "type": "quantitative", "axis": {"title": "CPI", "titleFont":"Roboto", "labelFont":"Roboto", "titleFontSize":15,"labelFontSize":12}, "scale": {"domain": [95, 130]}},
+          "color": {"field": "Country", "type": "nominal", "legend":{"orient":"top-left","titleFont":"Roboto", "titleFontSize":15, "labelFont":"Roboto", "labelFontSize":12}, "scale":{"scheme":"tableau20"}}
+        },
+        "layer": [
+          {"mark": "line"},
+          {
+            "params": [{
+              "name": "label",
+              "select": {
+                "type": "point",
+                "encodings": ["x"],
+                "nearest": true,
+                "on": "mouseover"
+              }
+            }],
+            "mark": "point",
+            "encoding": {
+              
+              "opacity": {
+                "condition": {
+                  "param": "label",
+                  "empty": false,
+                  "value": 1
+                },
+                "value": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "transform": [{"filter": {"param": "label", "empty": false}}],
+        "layer": [
+          {
+            "mark": {"type": "rule", "color": "lightgray"},
+            "encoding": {
+              "x": {"type": "ordinal", "field": "Year"}
+            }
+          },
+          {
+            "encoding": {
+              "text": {"type": "quantitative", "field": "CPI", "format": ".2f"},
+              "x": {"type": "ordinal", "field": "Year"},
+              "y": {"type": "quantitative", "field": "CPI"},
+              "tooltip":[{"field":"Country"},{"field":"Subject", "type": "nominal"},{"field":"CPI", "type": "quantitative", "format": ".2f"}]
+              },
+            "layer": [
+              {
+                "mark": {
+                  "type": "text",
+                  "stroke": "white",
+                  "strokeWidth": 2,
+                  "align": "left",
+                  "dx": 5,
+                  "dy": -5
+                }
+              },
+              {
+                "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5, "font":"Roboto"},
+                "encoding": {
+                  "color": {"type": "nominal", "field": "Country"}
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+      "mark": {
+      "type": "text",
+      "align": "left",
+      "baseline": "top",
+      "dx": -200,
+      "dy":-20,
+      "fontSize": 14,
+      "font":"Roboto",
+      "fontStyle":"Italic"
+      },
+      "encoding": {
+      "text": {"value":""},
+      "color": {"value":"black"}
+      }
+  }
+    ]
+  }
+  

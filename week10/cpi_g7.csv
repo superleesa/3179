@@ -1,0 +1,703 @@
+Subject,Country,Year,CPI
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United States,2015,100.0
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United States,2016,102.8473
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United States,2017,106.4029
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United States,2018,109.7682
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United States,2019,113.1062
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United States,2020,116.0336
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United States,2021,119.5384
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United States,2022,127.7814
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",France,2015,100.0008
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",France,2016,100.4608
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",France,2017,102.1042
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",France,2018,109.905
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",France,2019,117.2242
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",France,2020,126.0692
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",France,2021,130.2708
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",France,2022,131.9867
+CPI: 03 - Clothing and footwear,Italy,2015,99.98429
+CPI: 03 - Clothing and footwear,Italy,2016,100.4583
+CPI: 03 - Clothing and footwear,Italy,2017,100.8083
+CPI: 03 - Clothing and footwear,Italy,2018,101.0083
+CPI: 03 - Clothing and footwear,Italy,2019,101.275
+CPI: 03 - Clothing and footwear,Italy,2020,102.025
+CPI: 03 - Clothing and footwear,Italy,2021,102.4583
+CPI: 03 - Clothing and footwear,Italy,2022,104.3833
+CPI: 01-12 - All items,United Kingdom,2015,100.0
+CPI: 01-12 - All items,United Kingdom,2016,101.0
+CPI: 01-12 - All items,United Kingdom,2017,103.6
+CPI: 01-12 - All items,United Kingdom,2018,106.0
+CPI: 01-12 - All items,United Kingdom,2019,107.8
+CPI: 01-12 - All items,United Kingdom,2020,108.9
+CPI: 01-12 - All items,United Kingdom,2021,111.6
+CPI: 01-12 - All items,United Kingdom,2022,120.5
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Italy,2015,99.97807
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Italy,2016,98.34167
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Italy,2017,100.0833
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Italy,2018,102.6333
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Italy,2019,103.8833
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Italy,2020,100.45
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Italy,2021,107.45
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Italy,2022,145.0667
+CPI: 03 - Clothing and footwear,France,2015,99.99917
+CPI: 03 - Clothing and footwear,France,2016,100.1908
+CPI: 03 - Clothing and footwear,France,2017,100.2483
+CPI: 03 - Clothing and footwear,France,2018,100.4083
+CPI: 03 - Clothing and footwear,France,2019,100.1625
+CPI: 03 - Clothing and footwear,France,2020,99.7125
+CPI: 03 - Clothing and footwear,France,2021,99.86584
+CPI: 03 - Clothing and footwear,France,2022,102.5633
+CPI: 01 - Food and non-Alcoholic beverages,France,2015,100.0
+CPI: 01 - Food and non-Alcoholic beverages,France,2016,100.5542
+CPI: 01 - Food and non-Alcoholic beverages,France,2017,101.6475
+CPI: 01 - Food and non-Alcoholic beverages,France,2018,103.6475
+CPI: 01 - Food and non-Alcoholic beverages,France,2019,106.1858
+CPI: 01 - Food and non-Alcoholic beverages,France,2020,108.3325
+CPI: 01 - Food and non-Alcoholic beverages,France,2021,108.9983
+CPI: 01 - Food and non-Alcoholic beverages,France,2022,116.9308
+CPI: 03 - Clothing and footwear,United States,2015,100.0
+CPI: 03 - Clothing and footwear,United States,2016,99.97731
+CPI: 03 - Clothing and footwear,United States,2017,99.60408
+CPI: 03 - Clothing and footwear,United States,2018,99.92992
+CPI: 03 - Clothing and footwear,United States,2019,99.01496
+CPI: 03 - Clothing and footwear,United States,2020,94.60566
+CPI: 03 - Clothing and footwear,United States,2021,96.87054
+CPI: 03 - Clothing and footwear,United States,2022,102.1163
+CPI: 01 - Food and non-Alcoholic beverages,United Kingdom,2015,100.0
+CPI: 01 - Food and non-Alcoholic beverages,United Kingdom,2016,97.6
+CPI: 01 - Food and non-Alcoholic beverages,United Kingdom,2017,99.8
+CPI: 01 - Food and non-Alcoholic beverages,United Kingdom,2018,101.9
+CPI: 01 - Food and non-Alcoholic beverages,United Kingdom,2019,103.3
+CPI: 01 - Food and non-Alcoholic beverages,United Kingdom,2020,104.0
+CPI: 01 - Food and non-Alcoholic beverages,United Kingdom,2021,104.3
+CPI: 01 - Food and non-Alcoholic beverages,United Kingdom,2022,115.8
+CPI: 03 - Clothing and footwear,Germany,2015,100.0
+CPI: 03 - Clothing and footwear,Germany,2016,100.7583
+CPI: 03 - Clothing and footwear,Germany,2017,101.3833
+CPI: 03 - Clothing and footwear,Germany,2018,101.6583
+CPI: 03 - Clothing and footwear,Germany,2019,103.0583
+CPI: 03 - Clothing and footwear,Germany,2020,101.7396
+CPI: 03 - Clothing and footwear,Germany,2021,103.2317
+CPI: 03 - Clothing and footwear,Germany,2022,104.0455
+CPI: 01-12 - All items,France,2015,99.99917
+CPI: 01-12 - All items,France,2016,100.1825
+CPI: 01-12 - All items,France,2017,101.2167
+CPI: 01-12 - All items,France,2018,103.09
+CPI: 01-12 - All items,France,2019,104.2325
+CPI: 01-12 - All items,France,2020,104.7292
+CPI: 01-12 - All items,France,2021,106.4492
+CPI: 01-12 - All items,France,2022,112.0083
+"CPI: 04 - Housing, water, electricity, gas and other fuels",France,2015,100.0008
+"CPI: 04 - Housing, water, electricity, gas and other fuels",France,2016,99.88416
+"CPI: 04 - Housing, water, electricity, gas and other fuels",France,2017,101.4825
+"CPI: 04 - Housing, water, electricity, gas and other fuels",France,2018,103.8992
+"CPI: 04 - Housing, water, electricity, gas and other fuels",France,2019,105.4575
+"CPI: 04 - Housing, water, electricity, gas and other fuels",France,2020,105.24
+"CPI: 04 - Housing, water, electricity, gas and other fuels",France,2021,109.1692
+"CPI: 04 - Housing, water, electricity, gas and other fuels",France,2022,119.3425
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United Kingdom,2015,100.0
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United Kingdom,2016,101.5
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United Kingdom,2017,105.9
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United Kingdom,2018,110.5
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United Kingdom,2019,114.4
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United Kingdom,2020,116.8
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United Kingdom,2021,119.9
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United Kingdom,2022,125.6
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Germany,2015,100.0
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Germany,2016,99.99167
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Germany,2017,101.2418
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Germany,2018,103.0336
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Germany,2019,104.9004
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Germany,2020,106.115
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Germany,2021,107.8835
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Germany,2022,115.7272
+CPI: 01 - Food and non-Alcoholic beverages,Germany,2015,100.0
+CPI: 01 - Food and non-Alcoholic beverages,Germany,2016,100.8083
+CPI: 01 - Food and non-Alcoholic beverages,Germany,2017,103.5917
+CPI: 01 - Food and non-Alcoholic beverages,Germany,2018,105.9583
+CPI: 01 - Food and non-Alcoholic beverages,Germany,2019,107.2333
+CPI: 01 - Food and non-Alcoholic beverages,Germany,2020,109.5286
+CPI: 01 - Food and non-Alcoholic beverages,Germany,2021,112.9148
+CPI: 01 - Food and non-Alcoholic beverages,Germany,2022,127.0988
+CPI: 01-12 - All items,United States,2015,100.0
+CPI: 01-12 - All items,United States,2016,101.2616
+CPI: 01-12 - All items,United States,2017,103.4186
+CPI: 01-12 - All items,United States,2018,105.9446
+CPI: 01-12 - All items,United States,2019,107.8646
+CPI: 01-12 - All items,United States,2020,109.1952
+CPI: 01-12 - All items,United States,2021,114.325
+CPI: 01-12 - All items,United States,2022,123.4742
+CPI: 01 - Food and non-Alcoholic beverages,Italy,2015,100.0153
+CPI: 01 - Food and non-Alcoholic beverages,Italy,2016,100.2083
+CPI: 01 - Food and non-Alcoholic beverages,Italy,2017,102.0917
+CPI: 01 - Food and non-Alcoholic beverages,Italy,2018,103.3417
+CPI: 01 - Food and non-Alcoholic beverages,Italy,2019,104.1333
+CPI: 01 - Food and non-Alcoholic beverages,Italy,2020,105.5917
+CPI: 01 - Food and non-Alcoholic beverages,Italy,2021,106.2
+CPI: 01 - Food and non-Alcoholic beverages,Italy,2022,115.9083
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United States,2015,100.0
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United States,2016,102.2838
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United States,2017,105.8795
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United States,2018,108.6445
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United States,2019,112.1764
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United States,2020,116.0051
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United States,2021,121.1809
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",United States,2022,127.5685
+CPI: 03 - Clothing and footwear,United Kingdom,2015,100.0
+CPI: 03 - Clothing and footwear,United Kingdom,2016,100.2
+CPI: 03 - Clothing and footwear,United Kingdom,2017,102.6
+CPI: 03 - Clothing and footwear,United Kingdom,2018,103.5
+CPI: 03 - Clothing and footwear,United Kingdom,2019,102.6
+CPI: 03 - Clothing and footwear,United Kingdom,2020,101.2
+CPI: 03 - Clothing and footwear,United Kingdom,2021,101.4
+CPI: 03 - Clothing and footwear,United Kingdom,2022,109.1
+CPI: 01-12 - All items,Germany,2015,100.0
+CPI: 01-12 - All items,Germany,2016,100.4917
+CPI: 01-12 - All items,Germany,2017,102.0087
+CPI: 01-12 - All items,Germany,2018,103.7756
+CPI: 01-12 - All items,Germany,2019,105.2759
+CPI: 01-12 - All items,Germany,2020,105.4284
+CPI: 01-12 - All items,Germany,2021,108.6615
+CPI: 01-12 - All items,Germany,2022,116.1294
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United Kingdom,2015,100.0
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United Kingdom,2016,101.6
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United Kingdom,2017,103.7
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United Kingdom,2018,105.7
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United Kingdom,2019,107.4
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United Kingdom,2020,108.4
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United Kingdom,2021,110.6
+"CPI: 04 - Housing, water, electricity, gas and other fuels",United Kingdom,2022,120.1
+CPI: 01 - Food and non-Alcoholic beverages,Canada,2015,100.0
+CPI: 01 - Food and non-Alcoholic beverages,Canada,2016,101.0152
+CPI: 01 - Food and non-Alcoholic beverages,Canada,2017,99.99409
+CPI: 01 - Food and non-Alcoholic beverages,Canada,2018,100.8027
+CPI: 01 - Food and non-Alcoholic beverages,Canada,2019,104.5092
+CPI: 01 - Food and non-Alcoholic beverages,Canada,2020,107.0176
+CPI: 01 - Food and non-Alcoholic beverages,Canada,2021,109.3667
+CPI: 01 - Food and non-Alcoholic beverages,Canada,2022,120.0437
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Italy,2015,99.97092
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Italy,2016,101.4833
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Italy,2017,102.1333
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Italy,2018,105.0917
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Italy,2019,107.4417
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Italy,2020,109.475
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Italy,2021,109.8583
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Italy,2022,111.2583
+CPI: 01 - Food and non-Alcoholic beverages,United States,2015,100.0
+CPI: 01 - Food and non-Alcoholic beverages,United States,2016,98.67465
+CPI: 01 - Food and non-Alcoholic beverages,United States,2017,98.47515
+CPI: 01 - Food and non-Alcoholic beverages,United States,2018,98.92377
+CPI: 01 - Food and non-Alcoholic beverages,United States,2019,99.79937
+CPI: 01 - Food and non-Alcoholic beverages,United States,2020,103.2974
+CPI: 01 - Food and non-Alcoholic beverages,United States,2021,106.8809
+CPI: 01 - Food and non-Alcoholic beverages,United States,2022,119.1069
+CPI: 01-12 - All items,Italy,2015,99.96899
+CPI: 01-12 - All items,Italy,2016,99.875
+CPI: 01-12 - All items,Italy,2017,101.1
+CPI: 01-12 - All items,Italy,2018,102.25
+CPI: 01-12 - All items,Italy,2019,102.875
+CPI: 01-12 - All items,Italy,2020,102.7333
+CPI: 01-12 - All items,Italy,2021,104.6583
+CPI: 01-12 - All items,Italy,2022,113.2417
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Germany,2015,100.0
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Germany,2016,102.2417
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Germany,2017,104.725
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Germany,2018,108.0167
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Germany,2019,110.7333
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Germany,2020,112.8974
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Germany,2021,116.9154
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Germany,2022,121.7802
+CPI: 01-12 - All items,Canada,2015,100.0
+CPI: 01-12 - All items,Canada,2016,101.4288
+CPI: 01-12 - All items,Canada,2017,103.0485
+CPI: 01-12 - All items,Canada,2018,105.3858
+CPI: 01-12 - All items,Canada,2019,107.4401
+CPI: 01-12 - All items,Canada,2020,108.2104
+CPI: 01-12 - All items,Canada,2021,111.8844
+CPI: 01-12 - All items,Canada,2022,119.4957
+CPI: 09 - Recreation and culture,Germany,2015,100.0
+CPI: 09 - Recreation and culture,Germany,2016,100.65
+CPI: 09 - Recreation and culture,Germany,2017,102.0917
+CPI: 09 - Recreation and culture,Germany,2018,103.4167
+CPI: 09 - Recreation and culture,Germany,2019,104.025
+CPI: 09 - Recreation and culture,Germany,2020,99.19686
+CPI: 09 - Recreation and culture,Germany,2021,102.0235
+CPI: 09 - Recreation and culture,Germany,2022,106.9825
+CPI: 09 - Recreation and culture,Italy,2015,99.99181
+CPI: 09 - Recreation and culture,Italy,2016,100.55
+CPI: 09 - Recreation and culture,Italy,2017,100.9083
+CPI: 09 - Recreation and culture,Italy,2018,101.3083
+CPI: 09 - Recreation and culture,Italy,2019,101.2083
+CPI: 09 - Recreation and culture,Italy,2020,101.0167
+CPI: 09 - Recreation and culture,Italy,2021,101.4417
+CPI: 09 - Recreation and culture,Italy,2022,102.85
+CPI: 08 - Communication,United Kingdom,2015,100.0
+CPI: 08 - Communication,United Kingdom,2016,102.7
+CPI: 08 - Communication,United Kingdom,2017,104.6
+CPI: 08 - Communication,United Kingdom,2018,105.7
+CPI: 08 - Communication,United Kingdom,2019,109.8
+CPI: 08 - Communication,United Kingdom,2020,114.1
+CPI: 08 - Communication,United Kingdom,2021,116.1
+CPI: 08 - Communication,United Kingdom,2022,118.8
+CPI: 09 - Recreation and culture,France,2015,100.0008
+CPI: 09 - Recreation and culture,France,2016,101.0058
+CPI: 09 - Recreation and culture,France,2017,101.2808
+CPI: 09 - Recreation and culture,France,2018,102.0583
+CPI: 09 - Recreation and culture,France,2019,102.575
+CPI: 09 - Recreation and culture,France,2020,103.2867
+CPI: 09 - Recreation and culture,France,2021,104.4167
+CPI: 09 - Recreation and culture,France,2022,106.27
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United States,2015,100.0
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United States,2016,98.83524
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United States,2017,97.94495
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United States,2018,98.48214
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United States,2019,100.2036
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United States,2020,101.9548
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United States,2021,106.446
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United States,2022,116.1963
+CPI: 06 - Health,Germany,2015,100.0
+CPI: 06 - Health,Germany,2016,101.1249
+CPI: 06 - Health,Germany,2017,102.4915
+CPI: 06 - Health,Germany,2018,103.433
+CPI: 06 - Health,Germany,2019,104.4746
+CPI: 06 - Health,Germany,2020,105.8203
+CPI: 06 - Health,Germany,2021,106.3847
+CPI: 06 - Health,Germany,2022,107.7515
+CPI: 06 - Health,United States,2015,100.0
+CPI: 06 - Health,United States,2016,103.4498
+CPI: 06 - Health,United States,2017,106.2042
+CPI: 06 - Health,United States,2018,108.4251
+CPI: 06 - Health,United States,2019,109.6839
+CPI: 06 - Health,United States,2020,112.2142
+CPI: 06 - Health,United States,2021,114.5329
+CPI: 06 - Health,United States,2022,117.8755
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Germany,2015,100.0
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Germany,2016,100.6251
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Germany,2017,101.0751
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Germany,2018,101.7835
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Germany,2019,102.5835
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Germany,2020,102.7946
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Germany,2021,105.5958
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Germany,2022,113.6223
+CPI: 08 - Communication,United States,2015,100.0
+CPI: 08 - Communication,United States,2016,99.44937
+CPI: 08 - Communication,United States,2017,93.99646
+CPI: 08 - Communication,United States,2018,92.80721
+CPI: 08 - Communication,United States,2019,92.30922
+CPI: 08 - Communication,United States,2020,94.48962
+CPI: 08 - Communication,United States,2021,96.20653
+CPI: 08 - Communication,United States,2022,95.79279
+CPI: 09 - Recreation and culture,United Kingdom,2015,100.0
+CPI: 09 - Recreation and culture,United Kingdom,2016,100.5
+CPI: 09 - Recreation and culture,United Kingdom,2017,102.5
+CPI: 09 - Recreation and culture,United Kingdom,2018,105.6
+CPI: 09 - Recreation and culture,United Kingdom,2019,107.6
+CPI: 09 - Recreation and culture,United Kingdom,2020,109.8
+CPI: 09 - Recreation and culture,United Kingdom,2021,112.2
+CPI: 09 - Recreation and culture,United Kingdom,2022,117.8
+CPI: 08 - Communication,France,2015,100.0
+CPI: 08 - Communication,France,2016,100.7092
+CPI: 08 - Communication,France,2017,96.48666
+CPI: 08 - Communication,France,2018,94.525
+CPI: 08 - Communication,France,2019,92.06167
+CPI: 08 - Communication,France,2020,91.96333
+CPI: 08 - Communication,France,2021,93.85333
+CPI: 08 - Communication,France,2022,93.96416
+CPI: 07 - Transport,Germany,2015,100.0
+CPI: 07 - Transport,Germany,2016,99.05008
+CPI: 07 - Transport,Germany,2017,101.8498
+CPI: 07 - Transport,Germany,2018,105.1412
+CPI: 07 - Transport,Germany,2019,106.4578
+CPI: 07 - Transport,Germany,2020,104.2715
+CPI: 07 - Transport,Germany,2021,112.2482
+CPI: 07 - Transport,Germany,2022,125.0997
+CPI: 06 - Health,Italy,2015,100.0246
+CPI: 06 - Health,Italy,2016,100.35
+CPI: 06 - Health,Italy,2017,100.5667
+CPI: 06 - Health,Italy,2018,100.5167
+CPI: 06 - Health,Italy,2019,101.0417
+CPI: 06 - Health,Italy,2020,101.7083
+CPI: 06 - Health,Italy,2021,102.675
+CPI: 06 - Health,Italy,2022,103.475
+CPI: 09 - Recreation and culture,United States,2015,100.0
+CPI: 09 - Recreation and culture,United States,2016,100.3683
+CPI: 09 - Recreation and culture,United States,2017,101.1956
+CPI: 09 - Recreation and culture,United States,2018,101.2277
+CPI: 09 - Recreation and culture,United States,2019,102.0337
+CPI: 09 - Recreation and culture,United States,2020,103.1669
+CPI: 09 - Recreation and culture,United States,2021,105.8519
+CPI: 09 - Recreation and culture,United States,2022,110.7565
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Italy,2015,99.9608
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Italy,2016,100.2833
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Italy,2017,100.2917
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Italy,2018,100.45
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Italy,2019,100.5333
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Italy,2020,101.1667
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Italy,2021,102.1167
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Italy,2022,107.4417
+CPI: 06 - Health,United Kingdom,2015,100.0
+CPI: 06 - Health,United Kingdom,2016,102.2
+CPI: 06 - Health,United Kingdom,2017,104.7
+CPI: 06 - Health,United Kingdom,2018,107.3
+CPI: 06 - Health,United Kingdom,2019,110.1
+CPI: 06 - Health,United Kingdom,2020,112.6
+CPI: 06 - Health,United Kingdom,2021,114.1
+CPI: 06 - Health,United Kingdom,2022,117.4
+CPI: 07 - Transport,Italy,2015,99.98513
+CPI: 07 - Transport,Italy,2016,98.59167
+CPI: 07 - Transport,Italy,2017,102.0
+CPI: 07 - Transport,Italy,2018,104.825
+CPI: 07 - Transport,Italy,2019,105.6417
+CPI: 07 - Transport,Italy,2020,103.2167
+CPI: 07 - Transport,Italy,2021,108.2667
+CPI: 07 - Transport,Italy,2022,118.7917
+CPI: 07 - Transport,France,2015,100.0017
+CPI: 07 - Transport,France,2016,98.97166
+CPI: 07 - Transport,France,2017,102.0142
+CPI: 07 - Transport,France,2018,106.3167
+CPI: 07 - Transport,France,2019,107.4283
+CPI: 07 - Transport,France,2020,105.2433
+CPI: 07 - Transport,France,2021,109.955
+CPI: 07 - Transport,France,2022,120.795
+CPI: 08 - Communication,Germany,2015,100.0
+CPI: 08 - Communication,Germany,2016,98.75021
+CPI: 08 - Communication,Germany,2017,97.55874
+CPI: 08 - Communication,Germany,2018,96.53391
+CPI: 08 - Communication,Germany,2019,95.86736
+CPI: 08 - Communication,Germany,2020,93.81998
+CPI: 08 - Communication,Germany,2021,93.24142
+CPI: 08 - Communication,Germany,2022,93.26488
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",France,2015,100.0
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",France,2016,99.8575
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",France,2017,99.63583
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",France,2018,99.88333
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",France,2019,100.0517
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",France,2020,100.6658
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",France,2021,102.1058
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",France,2022,107.9208
+CPI: 07 - Transport,United States,2015,100.0
+CPI: 07 - Transport,United States,2016,96.36594
+CPI: 07 - Transport,United States,2017,98.89544
+CPI: 07 - Transport,United States,2018,102.8629
+CPI: 07 - Transport,United States,2019,102.3885
+CPI: 07 - Transport,United States,2020,98.03607
+CPI: 07 - Transport,United States,2021,113.5301
+CPI: 07 - Transport,United States,2022,132.3869
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United Kingdom,2015,100.0
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United Kingdom,2016,99.9
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United Kingdom,2017,102.5
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United Kingdom,2018,104.1
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United Kingdom,2019,105.1
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United Kingdom,2020,105.1
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United Kingdom,2021,108.8
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",United Kingdom,2022,120.0
+CPI: 06 - Health,France,2015,100.0008
+CPI: 06 - Health,France,2016,98.83
+CPI: 06 - Health,France,2017,98.65166
+CPI: 06 - Health,France,2018,98.25916
+CPI: 06 - Health,France,2019,97.1825
+CPI: 06 - Health,France,2020,96.67083
+CPI: 06 - Health,France,2021,95.19334
+CPI: 06 - Health,France,2022,94.53833
+CPI: 08 - Communication,Italy,2015,99.96065
+CPI: 08 - Communication,Italy,2016,99.65
+CPI: 08 - Communication,Italy,2017,97.40833
+CPI: 08 - Communication,Italy,2018,94.5
+CPI: 08 - Communication,Italy,2019,87.175
+CPI: 08 - Communication,Italy,2020,82.925
+CPI: 08 - Communication,Italy,2021,80.8
+CPI: 08 - Communication,Italy,2022,78.29166
+CPI: 07 - Transport,United Kingdom,2015,100.0
+CPI: 07 - Transport,United Kingdom,2016,100.5
+CPI: 07 - Transport,United Kingdom,2017,104.9
+CPI: 07 - Transport,United Kingdom,2018,109.4
+CPI: 07 - Transport,United Kingdom,2019,111.6
+CPI: 07 - Transport,United Kingdom,2020,112.0
+CPI: 07 - Transport,United Kingdom,2021,120.2
+CPI: 07 - Transport,United Kingdom,2022,134.3
+CPI: 12 - Miscellaneous goods and services,Italy,2015,99.9611
+CPI: 12 - Miscellaneous goods and services,Italy,2016,100.2583
+CPI: 12 - Miscellaneous goods and services,Italy,2017,101.1083
+CPI: 12 - Miscellaneous goods and services,Italy,2018,103.3333
+CPI: 12 - Miscellaneous goods and services,Italy,2019,105.0583
+CPI: 12 - Miscellaneous goods and services,Italy,2020,106.8917
+CPI: 12 - Miscellaneous goods and services,Italy,2021,107.975
+CPI: 12 - Miscellaneous goods and services,Italy,2022,110.1667
+CPI: 10 - Education,United States,2015,100.0
+CPI: 10 - Education,United States,2016,102.8082
+CPI: 10 - Education,United States,2017,105.2076
+CPI: 10 - Education,United States,2018,107.6201
+CPI: 10 - Education,United States,2019,110.742
+CPI: 10 - Education,United States,2020,112.9204
+CPI: 10 - Education,United States,2021,114.5172
+CPI: 10 - Education,United States,2022,118.613
+CPI: 12 - Miscellaneous goods and services,Germany,2015,100.0
+CPI: 12 - Miscellaneous goods and services,Germany,2016,102.2085
+CPI: 12 - Miscellaneous goods and services,Germany,2017,102.4419
+CPI: 12 - Miscellaneous goods and services,Germany,2018,103.617
+CPI: 12 - Miscellaneous goods and services,Germany,2019,105.9255
+CPI: 12 - Miscellaneous goods and services,Germany,2020,108.3261
+CPI: 12 - Miscellaneous goods and services,Germany,2021,112.4421
+CPI: 12 - Miscellaneous goods and services,Germany,2022,114.9063
+CPI: 12 - Miscellaneous goods and services,United States,2015,100.0
+CPI: 12 - Miscellaneous goods and services,United States,2016,103.8857
+CPI: 12 - Miscellaneous goods and services,United States,2017,107.5749
+CPI: 12 - Miscellaneous goods and services,United States,2018,111.4813
+CPI: 12 - Miscellaneous goods and services,United States,2019,114.8761
+CPI: 12 - Miscellaneous goods and services,United States,2020,117.3142
+CPI: 12 - Miscellaneous goods and services,United States,2021,118.729
+CPI: 12 - Miscellaneous goods and services,United States,2022,126.9341
+CPI: 12 - Miscellaneous goods and services,France,2015,100.0
+CPI: 12 - Miscellaneous goods and services,France,2016,101.0458
+CPI: 12 - Miscellaneous goods and services,France,2017,102.15
+CPI: 12 - Miscellaneous goods and services,France,2018,103.3058
+CPI: 12 - Miscellaneous goods and services,France,2019,104.4958
+CPI: 12 - Miscellaneous goods and services,France,2020,105.6758
+CPI: 12 - Miscellaneous goods and services,France,2021,106.7925
+CPI: 12 - Miscellaneous goods and services,France,2022,110.6658
+CPI: 10 - Education,Germany,2015,100.0
+CPI: 10 - Education,Germany,2016,101.8668
+CPI: 10 - Education,Germany,2017,102.6836
+CPI: 10 - Education,Germany,2018,103.6253
+CPI: 10 - Education,Germany,2019,103.2669
+CPI: 10 - Education,Germany,2020,102.504
+CPI: 10 - Education,Germany,2021,105.0927
+CPI: 10 - Education,Germany,2022,107.519
+CPI: 10 - Education,Italy,2015,100.0377
+CPI: 10 - Education,Italy,2016,100.7
+CPI: 10 - Education,Italy,2017,95.99167
+CPI: 10 - Education,Italy,2018,83.89167
+CPI: 10 - Education,Italy,2019,84.19167
+CPI: 10 - Education,Italy,2020,84.16666
+CPI: 10 - Education,Italy,2021,81.71667
+CPI: 10 - Education,Italy,2022,81.65833
+CPI: 11 - Restaurants and hotels,United Kingdom,2015,100.0
+CPI: 11 - Restaurants and hotels,United Kingdom,2016,102.4
+CPI: 11 - Restaurants and hotels,United Kingdom,2017,105.6
+CPI: 11 - Restaurants and hotels,United Kingdom,2018,108.4
+CPI: 11 - Restaurants and hotels,United Kingdom,2019,111.3
+CPI: 11 - Restaurants and hotels,United Kingdom,2020,112.3
+CPI: 11 - Restaurants and hotels,United Kingdom,2021,116.2
+CPI: 11 - Restaurants and hotels,United Kingdom,2022,125.9
+CPI: 10 - Education,France,2015,99.99917
+CPI: 10 - Education,France,2016,101.3
+CPI: 10 - Education,France,2017,102.5008
+CPI: 10 - Education,France,2018,103.5167
+CPI: 10 - Education,France,2019,105.33
+CPI: 10 - Education,France,2020,107.4167
+CPI: 10 - Education,France,2021,109.7608
+CPI: 10 - Education,France,2022,112.2783
+CPI: 11 - Restaurants and hotels,Italy,2015,99.96124
+CPI: 11 - Restaurants and hotels,Italy,2016,100.6583
+CPI: 11 - Restaurants and hotels,Italy,2017,102.3
+CPI: 11 - Restaurants and hotels,Italy,2018,103.5167
+CPI: 11 - Restaurants and hotels,Italy,2019,104.775
+CPI: 11 - Restaurants and hotels,Italy,2020,105.3333
+CPI: 11 - Restaurants and hotels,Italy,2021,107.2417
+CPI: 11 - Restaurants and hotels,Italy,2022,113.8917
+CPI: 11 - Restaurants and hotels,Germany,2015,100.0
+CPI: 11 - Restaurants and hotels,Germany,2016,102.2248
+CPI: 11 - Restaurants and hotels,Germany,2017,104.3496
+CPI: 11 - Restaurants and hotels,Germany,2018,106.6411
+CPI: 11 - Restaurants and hotels,Germany,2019,109.3992
+CPI: 11 - Restaurants and hotels,Germany,2020,111.6162
+CPI: 11 - Restaurants and hotels,Germany,2021,114.6109
+CPI: 11 - Restaurants and hotels,Germany,2022,123.2884
+CPI: 12 - Miscellaneous goods and services,United Kingdom,2015,100.0
+CPI: 12 - Miscellaneous goods and services,United Kingdom,2016,101.1
+CPI: 12 - Miscellaneous goods and services,United Kingdom,2017,102.5
+CPI: 12 - Miscellaneous goods and services,United Kingdom,2018,102.4
+CPI: 12 - Miscellaneous goods and services,United Kingdom,2019,103.7
+CPI: 12 - Miscellaneous goods and services,United Kingdom,2020,105.1
+CPI: 12 - Miscellaneous goods and services,United Kingdom,2021,106.1
+CPI: 12 - Miscellaneous goods and services,United Kingdom,2022,110.0
+CPI: 11 - Restaurants and hotels,France,2015,100.0
+CPI: 11 - Restaurants and hotels,France,2016,101.6967
+CPI: 11 - Restaurants and hotels,France,2017,103.3733
+CPI: 11 - Restaurants and hotels,France,2018,105.5967
+CPI: 11 - Restaurants and hotels,France,2019,107.0958
+CPI: 11 - Restaurants and hotels,France,2020,108.04
+CPI: 11 - Restaurants and hotels,France,2021,108.9525
+CPI: 11 - Restaurants and hotels,France,2022,114.0233
+CPI: 10 - Education,United Kingdom,2015,100.0
+CPI: 10 - Education,United Kingdom,2016,104.7
+CPI: 10 - Education,United Kingdom,2017,108.7
+CPI: 10 - Education,United Kingdom,2018,111.8
+CPI: 10 - Education,United Kingdom,2019,115.2
+CPI: 10 - Education,United Kingdom,2020,118.2
+CPI: 10 - Education,United Kingdom,2021,121.5
+CPI: 10 - Education,United Kingdom,2022,126.5
+CPI: 11 - Restaurants and hotels,United States,2015,100.0
+CPI: 11 - Restaurants and hotels,United States,2016,102.6302
+CPI: 11 - Restaurants and hotels,United States,2017,104.7896
+CPI: 11 - Restaurants and hotels,United States,2018,107.3189
+CPI: 11 - Restaurants and hotels,United States,2019,110.496
+CPI: 11 - Restaurants and hotels,United States,2020,112.159
+CPI: 11 - Restaurants and hotels,United States,2021,117.816
+CPI: 11 - Restaurants and hotels,United States,2022,127.4956
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Canada,2015,100.0
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Canada,2016,103.4159
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Canada,2017,106.497
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Canada,2018,111.3633
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Canada,2019,113.6294
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Canada,2020,113.787
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Canada,2021,116.466
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Canada,2022,120.721
+CPI: 03 - Clothing and footwear,Canada,2015,100.0
+CPI: 03 - Clothing and footwear,Canada,2016,99.56002
+CPI: 03 - Clothing and footwear,Canada,2017,98.86319
+CPI: 03 - Clothing and footwear,Canada,2018,99.77927
+CPI: 03 - Clothing and footwear,Canada,2019,101.2498
+CPI: 03 - Clothing and footwear,Canada,2020,99.35532
+CPI: 03 - Clothing and footwear,Canada,2021,98.50159
+CPI: 03 - Clothing and footwear,Canada,2022,99.69087
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Canada,2015,100.0
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Canada,2016,101.4257
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Canada,2017,103.0126
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Canada,2018,104.9652
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Canada,2019,107.5575
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Canada,2020,109.1605
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Canada,2021,112.8918
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Canada,2022,120.2451
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Canada,2015,100.0
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Canada,2016,102.3208
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Canada,2017,102.4291
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Canada,2018,103.5793
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Canada,2019,104.8356
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Canada,2020,106.8565
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Canada,2021,111.0682
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Canada,2022,118.6712
+CPI: 06 - Health,Canada,2015,100.0
+CPI: 06 - Health,Canada,2016,101.2899
+CPI: 06 - Health,Canada,2017,103.1969
+CPI: 06 - Health,Canada,2018,104.0651
+CPI: 06 - Health,Canada,2019,105.264
+CPI: 06 - Health,Canada,2020,106.8079
+CPI: 06 - Health,Canada,2021,108.9682
+CPI: 06 - Health,Canada,2022,111.9779
+CPI: 07 - Transport,Canada,2015,100.0
+CPI: 07 - Transport,Canada,2016,101.338
+CPI: 07 - Transport,Canada,2017,105.6735
+CPI: 07 - Transport,Canada,2018,111.1116
+CPI: 07 - Transport,Canada,2019,112.2699
+CPI: 07 - Transport,Canada,2020,110.5401
+CPI: 07 - Transport,Canada,2021,120.4435
+CPI: 07 - Transport,Canada,2022,134.5891
+CPI: 08 - Communication,Canada,2015,100.0
+CPI: 08 - Communication,Canada,2016,99.96095
+CPI: 08 - Communication,Canada,2017,99.23885
+CPI: 08 - Communication,Canada,2018,99.04871
+CPI: 08 - Communication,Canada,2019,96.54376
+CPI: 08 - Communication,Canada,2020,91.01942
+CPI: 08 - Communication,Canada,2021,84.27531
+CPI: 08 - Communication,Canada,2022,82.01012
+CPI: 09 - Recreation and culture,Canada,2015,100.0
+CPI: 09 - Recreation and culture,Canada,2016,101.5461
+CPI: 09 - Recreation and culture,Canada,2017,103.5956
+CPI: 09 - Recreation and culture,Canada,2018,105.1611
+CPI: 09 - Recreation and culture,Canada,2019,107.9332
+CPI: 09 - Recreation and culture,Canada,2020,110.426
+CPI: 09 - Recreation and culture,Canada,2021,113.5426
+CPI: 09 - Recreation and culture,Canada,2022,118.2715
+CPI: 10 - Education,Canada,2015,100.0
+CPI: 10 - Education,Canada,2016,102.8562
+CPI: 10 - Education,Canada,2017,105.4049
+CPI: 10 - Education,Canada,2018,108.3182
+CPI: 10 - Education,Canada,2019,109.8284
+CPI: 10 - Education,Canada,2020,107.9815
+CPI: 10 - Education,Canada,2021,110.2576
+CPI: 10 - Education,Canada,2022,112.6344
+CPI: 11 - Restaurants and hotels,Canada,2015,100.0
+CPI: 11 - Restaurants and hotels,Canada,2016,102.5343
+CPI: 11 - Restaurants and hotels,Canada,2017,105.3025
+CPI: 11 - Restaurants and hotels,Canada,2018,108.0981
+CPI: 11 - Restaurants and hotels,Canada,2019,109.4076
+CPI: 11 - Restaurants and hotels,Canada,2020,108.7096
+CPI: 11 - Restaurants and hotels,Canada,2021,111.2633
+CPI: 11 - Restaurants and hotels,Canada,2022,120.6866
+CPI: 12 - Miscellaneous goods and services,Canada,2015,100.0
+CPI: 12 - Miscellaneous goods and services,Canada,2016,101.6767
+CPI: 12 - Miscellaneous goods and services,Canada,2017,103.4284
+CPI: 12 - Miscellaneous goods and services,Canada,2018,105.5621
+CPI: 12 - Miscellaneous goods and services,Canada,2019,109.3947
+CPI: 12 - Miscellaneous goods and services,Canada,2020,113.4492
+CPI: 12 - Miscellaneous goods and services,Canada,2021,116.3457
+CPI: 12 - Miscellaneous goods and services,Canada,2022,122.1232
+CPI: 01 - Food and non-Alcoholic beverages,Japan,2015,100.0
+CPI: 01 - Food and non-Alcoholic beverages,Japan,2016,102.0893
+CPI: 01 - Food and non-Alcoholic beverages,Japan,2017,102.7942
+CPI: 01 - Food and non-Alcoholic beverages,Japan,2018,104.4742
+CPI: 01 - Food and non-Alcoholic beverages,Japan,2019,104.6661
+CPI: 01 - Food and non-Alcoholic beverages,Japan,2020,105.9654
+CPI: 03 - Clothing and footwear,Japan,2015,99.98333
+CPI: 03 - Clothing and footwear,Japan,2016,101.7917
+CPI: 03 - Clothing and footwear,Japan,2017,102.0
+CPI: 03 - Clothing and footwear,Japan,2018,102.1583
+CPI: 03 - Clothing and footwear,Japan,2019,102.6
+CPI: 03 - Clothing and footwear,Japan,2020,103.725
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Japan,2015,100.0064
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Japan,2016,97.93691
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Japan,2017,98.46635
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Japan,2018,99.36909
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Japan,2019,100.1254
+"CPI: 04 - Housing, water, electricity, gas and other fuels",Japan,2020,99.73924
+CPI: 01-12 - All items,Japan,2015,100.0
+CPI: 01-12 - All items,Japan,2016,99.87274
+CPI: 01-12 - All items,Japan,2017,100.3563
+CPI: 01-12 - All items,Japan,2018,101.3489
+CPI: 01-12 - All items,Japan,2019,101.824
+CPI: 01-12 - All items,Japan,2020,101.7986
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Japan,2015,100.0
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Japan,2016,100.0432
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Japan,2017,102.6109
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Japan,2018,103.6709
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Japan,2019,105.109
+"CPI: 02 - Alcoholic beverages, tobacco and narcotics",Japan,2020,106.7829
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Japan,2015,99.99126
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Japan,2016,99.57922
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Japan,2017,99.07249
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Japan,2018,97.93374
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Japan,2019,100.1217
+"CPI: 05 - Furnishings, household equipment and routine household maintenance",Japan,2020,102.4444
+CPI: 07 - Transport,Japan,2015,100.0111
+CPI: 07 - Transport,Japan,2016,96.99237
+CPI: 07 - Transport,Japan,2017,99.5398
+CPI: 07 - Transport,Japan,2018,102.919
+CPI: 07 - Transport,Japan,2019,102.6509
+CPI: 07 - Transport,Japan,2020,102.2557
+CPI: 06 - Health,Japan,2015,99.99167
+CPI: 06 - Health,Japan,2016,100.9
+CPI: 06 - Health,Japan,2017,101.775
+CPI: 06 - Health,Japan,2018,103.3583
+CPI: 06 - Health,Japan,2019,104.0
+CPI: 06 - Health,Japan,2020,104.325
+CPI: 08 - Communication,Japan,2015,100.0
+CPI: 08 - Communication,Japan,2016,99.13333
+CPI: 08 - Communication,Japan,2017,95.35
+CPI: 08 - Communication,Japan,2018,93.725
+CPI: 08 - Communication,Japan,2019,90.86667
+CPI: 08 - Communication,Japan,2020,91.08334
+CPI: 09 - Recreation and culture,Japan,2015,99.99197
+CPI: 09 - Recreation and culture,Japan,2016,100.7839
+CPI: 09 - Recreation and culture,Japan,2017,101.0217
+CPI: 09 - Recreation and culture,Japan,2018,101.706
+CPI: 09 - Recreation and culture,Japan,2019,103.2803
+CPI: 09 - Recreation and culture,Japan,2020,104.8473
+CPI: 11 - Restaurants and hotels,Japan,2015,99.99167
+CPI: 11 - Restaurants and hotels,Japan,2016,101.0918
+CPI: 11 - Restaurants and hotels,Japan,2017,101.564
+CPI: 11 - Restaurants and hotels,Japan,2018,102.6107
+CPI: 11 - Restaurants and hotels,Japan,2019,104.2424
+CPI: 11 - Restaurants and hotels,Japan,2020,102.8215
+CPI: 10 - Education,Japan,2015,99.98225
+CPI: 10 - Education,Japan,2016,101.597
+CPI: 10 - Education,Japan,2017,102.2419
+CPI: 10 - Education,Japan,2018,102.7014
+CPI: 10 - Education,Japan,2019,101.1008
+CPI: 10 - Education,Japan,2020,93.0039
+CPI: 12 - Miscellaneous goods and services,Japan,2015,100.0059
+CPI: 12 - Miscellaneous goods and services,Japan,2016,100.4469
+CPI: 12 - Miscellaneous goods and services,Japan,2017,100.4986
+CPI: 12 - Miscellaneous goods and services,Japan,2018,100.4973
+CPI: 12 - Miscellaneous goods and services,Japan,2019,100.8362
+CPI: 12 - Miscellaneous goods and services,Japan,2020,99.56364

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <script src="vega_lite_vis.js"></script>
+    <title>First Vega-Lite graph </title>
+</head>
+
+<body style="display:flex;flex-direction:column;align-items:center;gap: 70px;">
+    <h1>Japan: Deflation to Stagflation</h1>
+    
+    <div id="avg_wage_bump"></div>
+    <div style="display:flex;justify-content:center">
+        <div class="flex-center">
+            <h2>CPI value is increasing...</h2>
+            <div id="cpi_lines"></div>
+        </div>
+
+        <div class="flex-center">
+            <h2>Minimum wage is increasing</h2>
+            <p>To be fair, Japan's minimum wage is constantly shifted and optimized prefecture-wise.</p>
+            <div id="minimum_wage_map"></div>
+        </div>
+        
+        
+    </div>
+</body>
+<style>
+    .flex-center{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+</style>
+</html>

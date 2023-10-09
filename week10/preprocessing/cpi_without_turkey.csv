@@ -1,0 +1,349 @@
+Country,Time,Value
+China,2015,100.0
+China,2016,102.0
+China,2017,103.625
+China,2018,105.775
+China,2019,108.8417
+China,2020,111.475
+China,2021,112.5686
+China,2022,114.7902
+Netherlands,2015,100.0
+Netherlands,2016,100.3167
+Netherlands,2017,101.7025
+Netherlands,2018,103.435
+Netherlands,2019,106.1592
+Netherlands,2020,107.51
+Netherlands,2021,110.3867
+Netherlands,2022,121.4267
+Greece,2015,100.0
+Greece,2016,99.17434
+Greece,2017,100.2863
+Greece,2018,100.9138
+Greece,2019,101.1691
+Greece,2020,99.9065
+Greece,2021,101.1292
+Greece,2022,110.8834
+United Kingdom,2015,100.0
+United Kingdom,2016,101.0
+United Kingdom,2017,103.6
+United Kingdom,2018,106.0
+United Kingdom,2019,107.8
+United Kingdom,2020,108.9
+United Kingdom,2021,111.6
+United Kingdom,2022,120.5
+Belgium,2015,100.0
+Belgium,2016,101.9739
+Belgium,2017,104.1418
+Belgium,2018,106.28
+Belgium,2019,107.807
+Belgium,2020,108.6057
+Belgium,2021,111.2559
+Belgium,2022,121.9337
+Sweden,2015,100.0
+Sweden,2016,100.9843
+Sweden,2017,102.7964
+Sweden,2018,104.8046
+Sweden,2019,106.6745
+Sweden,2020,107.205
+Sweden,2021,109.5241
+Sweden,2022,118.6905
+India,2015,100.0
+India,2016,104.941
+India,2017,107.555
+India,2018,112.7829
+India,2019,121.4217
+India,2020,128.1744
+India,2021,134.4423
+India,2022,142.3749
+Ireland,2015,100.0
+Ireland,2016,100.0083
+Ireland,2017,100.3489
+Ireland,2018,100.8389
+Ireland,2019,101.7859
+Ireland,2020,101.4453
+Ireland,2021,103.8375
+Ireland,2022,111.9445
+Korea,2015,100.0
+Korea,2016,100.9717
+Korea,2017,102.9349
+Korea,2018,104.4541
+Korea,2019,104.8541
+Korea,2020,105.4175
+Korea,2021,108.0512
+Korea,2022,113.5487
+Norway,2015,100.0
+Norway,2016,103.55
+Norway,2017,105.4917
+Norway,2018,108.4083
+Norway,2019,110.7583
+Norway,2020,112.1833
+Norway,2021,116.0917
+Norway,2022,122.7833
+Costa Rica,2015,100.0
+Costa Rica,2016,99.98252
+Costa Rica,2017,101.6081
+Costa Rica,2018,103.865
+Costa Rica,2019,106.042
+Costa Rica,2020,106.8107
+Costa Rica,2021,108.6548
+Brazil,2015,100.0
+Brazil,2016,108.7391
+Brazil,2017,112.4867
+Brazil,2018,116.6092
+Brazil,2019,120.9622
+Brazil,2020,124.8472
+Brazil,2021,135.2116
+Brazil,2022,147.7594
+Slovak Republic,2015,100.0
+Slovak Republic,2016,99.47999
+Slovak Republic,2017,100.7851
+Slovak Republic,2018,103.3189
+Slovak Republic,2019,106.0719
+Slovak Republic,2020,108.1264
+Slovak Republic,2021,111.532
+Slovak Republic,2022,125.7793
+Mexico,2015,100.0
+Mexico,2016,102.8217
+Mexico,2017,109.0336
+Mexico,2018,114.3756
+Mexico,2019,118.5342
+Mexico,2020,122.5606
+Mexico,2021,129.5334
+Mexico,2022,139.7617
+Czech Republic,2015,99.975
+Czech Republic,2016,100.6583
+Czech Republic,2017,103.125
+Czech Republic,2018,105.3417
+Czech Republic,2019,108.3417
+Czech Republic,2020,111.7667
+Czech Republic,2021,116.0583
+Czech Republic,2022,133.5833
+Russia,2015,100.0
+Russia,2016,107.0424
+Russia,2017,110.9852
+Russia,2018,114.1797
+Russia,2019,119.2839
+Russia,2020,123.3177
+Russia,2021,131.5731
+Israel,2015,100.0
+Israel,2016,99.44845
+Israel,2017,99.70643
+Israel,2018,100.4982
+Israel,2019,101.3522
+Israel,2020,100.7295
+Israel,2021,102.2507
+Israel,2022,106.7432
+France,2015,99.99917
+France,2016,100.1825
+France,2017,101.2167
+France,2018,103.09
+France,2019,104.2325
+France,2020,104.7292
+France,2021,106.4492
+France,2022,112.0083
+Chile,2015,100.0
+Chile,2016,103.7862
+Chile,2017,106.0516
+Chile,2018,108.6338
+Chile,2019,111.4121
+Chile,2020,114.8052
+Chile,2021,119.9996
+Chile,2022,133.9722
+Australia,2015,100.0
+Australia,2016,101.277
+Australia,2017,103.2505
+Australia,2018,105.2241
+Australia,2019,106.919
+Australia,2020,107.8245
+Australia,2021,110.9125
+Australia,2022,118.2261
+Lithuania,2015,99.99999
+Lithuania,2016,100.9055
+Lithuania,2017,104.6621
+Lithuania,2018,107.4858
+Lithuania,2019,109.9951
+Lithuania,2020,111.3149
+Lithuania,2021,116.5284
+Lithuania,2022,139.4904
+Switzerland,2015,100.0
+Switzerland,2016,99.56538
+Switzerland,2017,100.0968
+Switzerland,2018,101.0341
+Switzerland,2019,101.4007
+Switzerland,2020,100.6647
+Switzerland,2021,101.2504
+Switzerland,2022,104.1208
+New Zealand,2015,100.0
+New Zealand,2016,100.6462
+New Zealand,2017,102.509
+New Zealand,2018,104.1474
+New Zealand,2019,105.8342
+New Zealand,2020,107.6488
+New Zealand,2021,111.8913
+New Zealand,2022,119.9165
+Colombia,2015,100.0
+Colombia,2016,107.5135
+Colombia,2017,112.1519
+Colombia,2018,115.7863
+Colombia,2019,119.8655
+Colombia,2020,122.894
+Colombia,2021,127.1892
+Colombia,2022,140.1336
+Austria,2015,100.0
+Austria,2016,100.8916
+Austria,2017,102.9914
+Austria,2018,105.0496
+Austria,2019,106.6578
+Austria,2020,108.1317
+Austria,2021,111.1233
+Austria,2022,120.6209
+Saudi Arabia,2015,100.0
+Saudi Arabia,2016,102.0688
+Saudi Arabia,2017,101.2133
+Saudi Arabia,2018,103.7013
+Saudi Arabia,2019,101.5305
+Saudi Arabia,2020,105.0286
+Saudi Arabia,2021,108.246
+Saudi Arabia,2022,110.9241
+Hungary,2015,100.0
+Hungary,2016,100.3948
+Hungary,2017,102.7523
+Hungary,2018,105.681
+Hungary,2019,109.2092
+Hungary,2020,112.8423
+Hungary,2021,118.6097
+Hungary,2022,135.9363
+Slovenia,2015,100.0008
+Slovenia,2016,99.94583
+Slovenia,2017,101.3742
+Slovenia,2018,103.1367
+Slovenia,2019,104.8183
+Slovenia,2020,104.7608
+Slovenia,2021,106.7692
+Slovenia,2022,116.2008
+United States,2015,100.0
+United States,2016,101.2616
+United States,2017,103.4186
+United States,2018,105.9446
+United States,2019,107.8646
+United States,2020,109.1952
+United States,2021,114.325
+United States,2022,123.4742
+Finland,2015,99.995
+Finland,2016,100.3517
+Finland,2017,101.1083
+Finland,2018,102.2042
+Finland,2019,103.2508
+Finland,2020,103.5508
+Finland,2021,105.8233
+Finland,2022,113.3617
+South Africa,2015,100.0
+South Africa,2016,106.5714
+South Africa,2017,112.0963
+South Africa,2018,117.1599
+South Africa,2019,121.9872
+South Africa,2020,125.903
+South Africa,2021,131.7092
+South Africa,2022,140.9812
+Indonesia,2015,100.0
+Indonesia,2016,103.5258
+Indonesia,2017,107.4689
+Indonesia,2018,110.9061
+Indonesia,2019,114.2672
+Indonesia,2020,116.4623
+Indonesia,2021,118.2792
+Indonesia,2022,123.2581
+Luxembourg,2015,100.0
+Luxembourg,2016,100.2908
+Luxembourg,2017,102.0267
+Luxembourg,2018,103.5858
+Luxembourg,2019,105.3917
+Luxembourg,2020,106.2558
+Luxembourg,2021,108.9408
+Luxembourg,2022,115.8433
+Latvia,2015,100.0
+Latvia,2016,100.1406
+Latvia,2017,103.0751
+Latvia,2018,105.6875
+Latvia,2019,108.6588
+Latvia,2020,108.8969
+Latvia,2021,112.4641
+Latvia,2022,131.932
+Iceland,2015,100.0
+Iceland,2016,101.6969
+Iceland,2017,103.4872
+Iceland,2018,106.2637
+Iceland,2019,109.4665
+Iceland,2020,112.584
+Iceland,2021,117.5875
+Iceland,2022,127.3575
+Japan,2015,100.0
+Japan,2016,99.87274
+Japan,2017,100.3563
+Japan,2018,101.3489
+Japan,2019,101.824
+Japan,2020,101.7986
+Germany,2015,100.0
+Germany,2016,100.4917
+Germany,2017,102.0087
+Germany,2018,103.7756
+Germany,2019,105.2759
+Germany,2020,105.4284
+Germany,2021,108.6615
+Germany,2022,116.1294
+Denmark,2015,100.0
+Denmark,2016,100.25
+Denmark,2017,101.4
+Denmark,2018,102.225
+Denmark,2019,103.0
+Denmark,2020,103.4333
+Denmark,2021,105.35
+Denmark,2022,113.4583
+Poland,2015,100.0
+Poland,2016,99.33524
+Poland,2017,101.3974
+Poland,2018,103.2357
+Poland,2019,105.5352
+Poland,2020,109.0965
+Poland,2021,114.6113
+Poland,2022,131.1491
+Spain,2015,100.0
+Spain,2016,99.7974
+Spain,2017,101.7495
+Spain,2018,103.4538
+Spain,2019,104.1775
+Spain,2020,103.8412
+Spain,2021,107.0532
+Spain,2022,116.0356
+Italy,2015,99.96899
+Italy,2016,99.875
+Italy,2017,101.1
+Italy,2018,102.25
+Italy,2019,102.875
+Italy,2020,102.7333
+Italy,2021,104.6583
+Italy,2022,113.2417
+Estonia,2015,100.0
+Estonia,2016,100.1487
+Estonia,2017,103.571
+Estonia,2018,107.13
+Estonia,2019,109.5697
+Estonia,2020,109.0826
+Estonia,2021,114.1584
+Estonia,2022,136.3031
+Canada,2015,100.0
+Canada,2016,101.4288
+Canada,2017,103.0485
+Canada,2018,105.3858
+Canada,2019,107.4401
+Canada,2020,108.2104
+Canada,2021,111.8844
+Canada,2022,119.4957
+Portugal,2015,100.0
+Portugal,2016,100.6074
+Portugal,2017,101.9843
+Portugal,2018,102.9978
+Portugal,2019,103.3461
+Portugal,2020,103.3332
+Portugal,2021,104.6411
+Portugal,2022,112.8373
