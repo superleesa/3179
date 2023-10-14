@@ -1,0 +1,259 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "productivity_g7.csv"
+  },
+  "title": "Changes in Work Productivity for G7 Countries, from 2000 to 2022",
+  "width": 580,
+  "height": 580,
+  "layer": [
+    {
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "axis": {
+            "title": "Year",
+            "labelAngle": 30,
+            "titleFont": "Roboto",
+            "labelFont": "Roboto",
+            "titleFontSize": 15,
+            "labelFontSize": 12
+          }
+        },
+        "y": {
+          "field": "Productivity",
+          "type": "quantitative",
+          "axis": {
+            "title": "Work Productivity",
+            "titleFont": "Roboto",
+            "labelFont": "Roboto",
+            "titleFontSize": 15,
+            "labelFontSize": 12
+          },
+          "scale": {
+            "domain": [
+              30,
+              85
+            ]
+          }
+        },
+        "color": {
+          "field": "Country",
+          "type": "nominal",
+          "legend": {
+            "orient": "top-left",
+            "titleFont": "Roboto",
+            "titleFontSize": 15,
+            "labelFont": "Roboto",
+            "labelFontSize": 12
+          },
+          "scale": {
+            "range": [
+              "#FFD1DC",
+              "#AFEEEE",
+              "#98FB98",
+              "#FFFF00",
+              "red",
+              "#D8BFD8",
+              "#FFDAB9"
+            ]
+          }
+        }
+      },
+      "layer": [
+        {
+          "mark": "line"
+        },
+        {
+          "params": [
+            {
+              "name": "label",
+              "select": {
+                "type": "point",
+                "encodings": [
+                  "x"
+                ],
+                "nearest": true,
+                "on": "mouseover"
+              }
+            }
+          ],
+          "mark": "point",
+          "encoding": {
+            "opacity": {
+              "condition": {
+                "param": "label",
+                "empty": false,
+                "value": 1
+              },
+              "value": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "filter": {
+            "param": "label",
+            "empty": false
+          }
+        }
+      ],
+      "layer": [
+        {
+          "mark": {
+            "type": "rule",
+            "color": "lightgray"
+          },
+          "encoding": {
+            "x": {
+              "type": "ordinal",
+              "field": "Year"
+            }
+          }
+        },
+        {
+          "encoding": {
+            "text": {
+              "type": "quantitative",
+              "field": "Productivity",
+              "format": ".2f"
+            },
+            "x": {
+              "type": "ordinal",
+              "field": "Year",
+              "axis": {
+                "labelAlign": "left",
+                "labelExpr": "datum.label[2]+datum.label[3]"
+              }
+            },
+            "y": {
+              "type": "quantitative",
+              "field": "Productivity"
+            },
+            "tooltip": [
+              {
+                "field": "Country"
+              },
+              {
+                "field": "Productivity",
+                "type": "quantitative",
+                "format": ".2f"
+              }
+            ]
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "stroke": "white",
+                "strokeWidth": 2,
+                "align": "left",
+                "dx": 5,
+                "dy": -5
+              }
+            },
+            {
+              "mark": {
+                "type": "text",
+                "align": "left",
+                "dx": 5,
+                "dy": -5,
+                "font": "Roboto"
+              },
+              "encoding": {
+                "color": {
+                  "type": "nominal",
+                  "field": "Country"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": -200,
+        "dy": -20,
+        "fontSize": 14,
+        "font": "Roboto",
+        "fontStyle": "Italic"
+      },
+      "encoding": {
+        "text": {
+          "value": ""
+        },
+        "color": {
+          "value": "black"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": -180,
+        "dy": 180,
+        "fontSize": 12,
+        "fontStyle": "italic",
+        "font": "Roboto"
+      },
+      "encoding": {
+        "text": {
+          "value": "Japan's work productivity is the lowest among G7 countries consecutively"
+        },
+        "color": {
+          "value": "red"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": -180,
+        "dy": 200,
+        "fontSize": 12,
+        "fontStyle": "italic",
+        "font": "Roboto"
+      },
+      "encoding": {
+        "text": {
+          "value": "In 2022, Japan achived approximately 60% increase from 2000"
+        },
+        "color": {
+          "value": "red"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": -110,
+        "dy": -150,
+        "fontSize": 12,
+        "fontStyle": "italic",
+        "font": "Roboto"
+      },
+      "encoding": {
+        "text": {
+          "value": "The US always has about 80% higher work productivity than Japan"
+        },
+        "color": {
+          "value": "black"
+        }
+      }
+    }
+  ]
+}

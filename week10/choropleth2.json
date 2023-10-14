@@ -1,56 +1,104 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Minimum Wage in Japan, by Prefecture",
-    "width": 600,
-    "height": 600,
-    "projection": { "type": "mercator" },
-    "params": [
-        {
-        "name": "Year",
-        "value": 2002,
-        "bind": {
-        "input": "range",
-        "min": 2002,
-        "max": 2022,
-        "step": 1,
-        "name": "Year: "
-        }}
-    ],
-    "data":{
-        "url":"min_wage_japan_2002_to_2023.csv"
-     },
-     "transform":[
-        {
-           "lookup":"prefecture",
-           "from":{
-              "data":{
-                 "url":"japan.topojson",
-                 "format":{
-                    "type":"topojson",
-                    "feature":"japan"
-                 }
-              },
-              "key":"properties.nam"
+   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+   "title": "Minimum Wage (in Yen) by Prefecture in Japan, from 2002 to 2022",
+   "width": 580,
+   "height": 580,
+   "projection": {
+      "type": "mercator"
+   },
+   "params": [
+      {
+         "name": "Year",
+         "value": 2015,
+         "bind": {
+            "input": "range",
+            "min": 2002,
+            "max": 2022,
+            "step": 1,
+            "name": "Year: "
+         }
+      }
+   ],
+   "layer": [
+      {
+         "data": {
+            "url": "min_wage_japan_2002_to_2023.csv"
+         },
+         "transform": [
+            {
+               "lookup": "prefecture",
+               "from": {
+                  "data": {
+                     "url": "japan.topojson",
+                     "format": {
+                        "type": "topojson",
+                        "feature": "japan"
+                     }
+                  },
+                  "key": "properties.nam"
+               },
+               "as": "geo"
+            },
+            {
+               "filter": "datum.year == Year"
+            }
+         ],
+         "mark": {
+            "type": "geoshape",
+            "stroke": "black"
+         },
+         "encoding": {
+            "shape": {
+               "field": "geo",
+               "type": "geojson"
+            },
+            "color": {
+               "field": "min_wage",
+               "type": "quantitative",
+               "title": "Minimum Wage (Yen)",
+               "legend": {
+                  "orient": "top-left"
+               },
+               "scale": {
+                  "domain": [
+                     600,
+                     1113
+                  ]
+               }
+            },
+            "tooltip": [
+               {
+                  "field": "prefecture",
+                  "type": "nominal",
+                  "title": "Prefecture"
+               },
+               {
+                  "field": "min_wage",
+                  "type": "quantitative",
+                  "title": "Minimum Wage"
+               }
+            ]
+         }
+      }, {
+         "mark": {
+           "type": "text",
+           "align": "left",
+           "baseline": "top",
+           "dx": -200,
+           "dy": -20,
+           "fontSize": 14,
+           "font": "Roboto",
+           "fontStyle": "Italic"
+         },
+         "encoding": {
+           "text": {
+             "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
            },
-           "as":"geo"
-        },
-        {
-           "filter":"datum.year == Year"
-        }
-     ],
-    "mark": { "type": "geoshape", "stroke":"black" },
-    "encoding": {
-        "shape": {"field": "geo", "type": "geojson"},
-      "color": {
-        "field": "min_wage",
-        "type": "quantitative",
-        "title": "Minimum Wage (Yen)",
-        "scale": {"domain": [600, 1113]}
-      },
-
-      "tooltip": [
-        {"field": "properties.nam", "type": "nominal", "title": "Prefecture"},
-        {"field": "min_wage", "type": "quantitative", "title": "Minimum Wage"}
-      ]
-    }
-  }
+           "color": {
+             "value": "black"
+           }
+         }
+       }
+      
+   ]
+}
