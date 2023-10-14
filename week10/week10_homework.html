@@ -11,28 +11,39 @@
     <title>First Vega-Lite graph </title>
 </head>
 
-<body style="display:flex;flex-direction:column;align-items:center;gap: 20px;">
-    <div style="display:flex;flex-direction:column;align-items:center;padding-left:20px;padding-right:20px;">
-        <h1>Japan: Deflation to Stagflation</h1>
-        <p>Japan has been grappling with <span style="color:red">deflation</span> for many years. Deflation is a persistent decrease in the general price level of goods and services, and it can have various economic consequences. However, it seems that Japan currently is in, stagflation, a even worse situation, where the price level gets higher without increasing wages.</p>
-        <p>The below chart shows the dropping ranking in Japan's average wage compared to OECD countries, from 2000 to 2022.</p>
+<body style="display:flex;flex-direction:column;align-items:center;gap: 30px;">
+    <div style="display:flex;flex-direction:column;align-items:center;width:80%;text-align:center;">
+        <h1>Japan: Deflation</h1>
+        <p>Japan has been grappling with <span style="color:red">deflation</span> for many years. Deflation is a persistent decrease in the general price level of goods and services, and it can have various economic consequences. However, it seems that Japan currently is in stagflation, a even worse situation, where the price level gets higher without increasing wages.</p>
+        <p>The Consumer Price Index (CPI) is often used as an economic indicator for inflation/deflation level, which specifically measures the average change in prices paid by consumers for a basket of goods and services over time. The below chart shows the CPI for G7 countries in various sectors, such as food, energy, transporation, clothing and communication.</p>
+        <div id="cpi_lines"></div>
     </div>
 
-    <div id="avg_wage_bump"></div>
-    <div style="display:flex;justify-content:center">
-        <div class="flex-center">
-            <h2>CPI value is increasing...</h2>
-            <div id="cpi_lines"></div>
-        </div>
-
-        <div class="flex-center">
-            <h2>Minimum wage is increasing</h2>
-            <p>To be fair, Japan's minimum wage is constantly shifted and optimized prefecture-wise.</p>
-            <div id="minimum_wage_map"></div>
-        </div>
-        
-        
+    <h2 style="margin-top:100px;">What's causing and not causing the deflation?</h2>
+    
+    <div class="flex-center">
+        <h3>Fact1: Minimum wage is increasing</h3>
+        <p>To be fair, Japan's government constantly shifts minimum wages, optimized prefecture-wise. Slide the slider to see the increasing minimum wage.</p>
+        <div id="minimum_wage_map" style="margin-left:150px;"></div>
     </div>
+
+    <div class="flex-center" style="margin-top: 60px;">
+        <h3>Fact2: Average Wage is NOT increasing even slighly compared to other countries</h3>
+        <p>The below chart shows the dropping ranking, from 5th to 20th, in Japan's average wage compared to OECD countries, from 2000 to 2022.</p>
+        <div id="avg_wage_bump"></div>
+    </div>
+
+    <!--create a income distribution plot; area chart-->
+    <div class="flex-center" style="margin-top: 60px;">
+        <h3>Fact3: Japan has a more severely positively skewed income distribution than US</h3>
+        <p>In the above chart, we saw that Japan's rank in average wage is dropping among OECD countries. The below area chart, showing the positively skewed nature of income distributions for both Japan and US, might explain this. While both of them have a similar shape of distribution, Japan's distribution is more severely positively skewed. We also see that there are lots of wealthy people in the United States, which increases the overall average income.</p>
+        <div id="income_dist_area"></div>
+    </div>
+
+    
+        
+        
+    
 </body>
 <style>
     .flex-center{
@@ -40,5 +51,18 @@
         align-items: center;
         flex-direction: column;
     }
+
+    /*for the bump chart slider*/
+    #avg_wage_bump .vega-bind {
+        display: flex;
+        justify-content: center;
+    }
+    #avg_wage_bump input[type=range] {
+        width: 500px;
+    }
+    #minimum_wage_map input[type=range] {
+        width: 500px;
+    }
+      
 </style>
 </html>

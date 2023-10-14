@@ -1,0 +1,56 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Minimum Wage in Japan, by Prefecture",
+    "width": 600,
+    "height": 600,
+    "projection": { "type": "mercator" },
+    "params": [
+        {
+        "name": "Year",
+        "value": 2002,
+        "bind": {
+        "input": "range",
+        "min": 2002,
+        "max": 2022,
+        "step": 1,
+        "name": "Year: "
+        }}
+    ],
+    "data":{
+        "url":"min_wage_japan_2002_to_2023.csv"
+     },
+     "transform":[
+        {
+           "lookup":"prefecture",
+           "from":{
+              "data":{
+                 "url":"japan.topojson",
+                 "format":{
+                    "type":"topojson",
+                    "feature":"japan"
+                 }
+              },
+              "key":"properties.nam"
+           },
+           "as":"geo"
+        },
+        {
+           "filter":"datum.year == Year"
+        }
+     ],
+    "mark": { "type": "geoshape", "stroke":"black" },
+    "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+      "color": {
+        "field": "min_wage",
+        "type": "quantitative",
+        "title": "Minimum Wage (Yen)",
+        "scale": {"domain": [600, 1113]}
+      },
+
+      "tooltip": [
+        {"field": "properties.nam", "type": "nominal", "title": "Prefecture"},
+        {"field": "min_wage", "type": "quantitative", "title": "Minimum Wage"}
+      ]
+    }
+  }

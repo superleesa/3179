@@ -2,7 +2,6 @@
     "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
     "title":{
        "text":"Countries with Top N Average Wages from 2000 to 2022",
-       "fontSize": 20,
        "font":"Roboto"
     },
     "width":900,
@@ -12,13 +11,14 @@
     },
     "params":[
        {
-          "name":"Top_N",
+          "name":"TopN",
           "value":20,
           "bind":{
              "input":"range",
              "min":10,
-             "max":20,
-             "step":1
+             "max":30,
+             "step":1,
+             "name": "Top N"
           }
        }
     ],
@@ -41,7 +41,7 @@
           ]
        },
        {
-          "filter":"datum.rank <= Top_N"
+          "filter":"datum.rank <= TopN"
        }
     ],
     "encoding":{
@@ -90,7 +90,7 @@
              "domain":[
                 0.5,
                 {
-                   "expr":"Top_N+0.5"
+                   "expr":"TopN+0.5"
                 }
              ]
           },
@@ -99,20 +99,23 @@
           }
        },
        "tooltip":[
-          {
-             "field":"Time",
-             "type":"ordinal"
-          },
-          {
-             "field":"Country",
-             "type":"nominal"
-          },
-          {
-             "field":"rank",
-             "type":"quantitative",
-             "title":"Rank"
-          }
-       ]
+         {
+            "field":"Country",
+            "type":"nominal"
+         },
+         {
+            "field":"Time",
+            "type":"ordinal"
+         },
+         {
+            "field":"Value",
+            "type":"quantitative"
+         },
+         {
+            "field":"rank",
+            "type":"quantitative"
+         }
+      ]
     },
     "layer":[
         {

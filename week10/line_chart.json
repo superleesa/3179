@@ -36,18 +36,18 @@
         "CPI: 10 - Education",
         "CPI: 11 - Restaurants and hotels",
         "CPI: 12 - Miscellaneous goods and services"],
-        "name": "Select CPI Subject: "
+        "name": "Sector of economy (CPI Subject): "
         }
         }
         ],
     "transform": [{"filter": "Attribute_selection == null || datum.Subject== Attribute_selection"}],
-    "width": 600,
+    "width": 900,
     "height": 400,
     "layer": [
       {
         "encoding": {
           "x": {"field": "Year", "type": "ordinal", "axis": {"title": "Year", "labelAngle":30, "titleFont":"Roboto", "labelFont":"Roboto", "titleFontSize":15,"labelFontSize":12}},
-          "y": {"field": "CPI", "type": "quantitative", "axis": {"title": "CPI", "titleFont":"Roboto", "labelFont":"Roboto", "titleFontSize":15,"labelFontSize":12}, "scale": {"domain": [95, 130]}},
+          "y": {"field": "CPI", "type": "quantitative", "axis": {"title": "CPI", "titleFont":"Roboto", "labelFont":"Roboto", "titleFontSize":15,"labelFontSize":12}, "scale": {"domain": [70, 140]}},
           "color": {"field": "Country", "type": "nominal", "legend":{"orient":"top-left","titleFont":"Roboto", "titleFontSize":15, "labelFont":"Roboto", "labelFontSize":12}, "scale":{"scheme":"tableau20"}}
         },
         "layer": [

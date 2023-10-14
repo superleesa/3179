@@ -1,4 +1,4 @@
-const vg_1 = "choropleth.json";
+const vg_1 = "choropleth2.json";
 const vg_2 = "bump_chart.json";
 const vg_3 = "line_chart.json";
 
