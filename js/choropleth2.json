@@ -1,0 +1,84 @@
+{
+   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+   "title": "Hourly Minimum Wage (in Yen) by Prefecture in Japan, from 2002 to 2022",
+   "width": 580,
+   "height": 580,
+   "projection": {
+      "type": "mercator"
+   },
+   "params": [
+      {
+         "name": "Year",
+         "value": 2015,
+         "bind": {
+            "input": "range",
+            "min": 2002,
+            "max": 2022,
+            "step": 1,
+            "name": "Year: "
+         }
+      }
+   ],
+   "layer": [
+      {
+         "data": {
+            "url": "min_wage_japan_2002_to_2023.csv"
+         },
+         "transform": [
+            {
+               "lookup": "prefecture",
+               "from": {
+                  "data": {
+                     "url": "japan.topojson",
+                     "format": {
+                        "type": "topojson",
+                        "feature": "japan"
+                     }
+                  },
+                  "key": "properties.nam"
+               },
+               "as": "geo"
+            },
+            {
+               "filter": "datum.year == Year"
+            }
+         ],
+         "mark": {
+            "type": "geoshape",
+            "stroke": "black"
+         },
+         "encoding": {
+            "shape": {
+               "field": "geo",
+               "type": "geojson"
+            },
+            "color": {
+               "field": "min_wage",
+               "type": "quantitative",
+               "title": "Minimum Wage (Yen)",
+               "legend": {
+                  "orient": "top-left"
+               },
+               "scale": {
+                  "domain": [
+                     600,
+                     1113
+                  ]
+               }
+            },
+            "tooltip": [
+               {
+                  "field": "prefecture",
+                  "type": "nominal",
+                  "title": "Prefecture"
+               },
+               {
+                  "field": "min_wage",
+                  "type": "quantitative",
+                  "title": "Minimum Wage"
+               }
+            ]
+         }
+      }
+   ]
+}

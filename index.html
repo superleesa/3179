@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,116 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-    <script src="vega_lite_vis.js"></script>
-    <title>First Vega-Lite graph </title>
+    <script src="js/vega_lite_vis.js"></script>
+    <title>Japan's Deflation </title>
 </head>
 
-<body style="display:flex;flex-direction:column;align-items:center;">
-    <h1>Japan's Deflation</h1>
-    <div id="minimum_wage_map">
+<body style="margin:0">
+    <div id="main" style="display:flex; justify-content:center;">
+        <div style="display:flex;flex-direction:column;align-items:center;gap: 30px;width:90%;">
+            <div style="display:flex;flex-direction:column;align-items:center;">
+                <h1>Japan's Deflation</h1>
+                <p>Japan has been grappling with <span style="color:red">deflation</span> for many years. Deflation is a
+                    persistent decrease in the general price level of goods and services, and it can have various
+                    economic consequences, including <span class="red">a decrease in demand and wages, and increase in
+                        unemployement</span>.</p>
+                <div style="width:100%;">
+                    <h2>What is current Japan's deflation level?</h2>
+                </div>
+                <p>The Consumer Price Index (CPI) is often used as an economic indicator for inflation/deflation level,
+                    which specifically measures the average change in prices paid by consumers for a basket of goods and
+                    services over time. The below chart shows the CPI for G7 countries in various sectors, such as food,
+                    energy, transporation, clothing and communication. It clealy indicates a Japan's deflating trend,
+                    where <span class="red">CPI values are not increasing and sometimes decreasing</span>, when other
+                    countries sustain about 2 CPI units increase per year.</p>
+                <div id="cpi_lines"></div>
+            </div>
+
+            <div style="width:100%;">
+                <h2 style="margin-top:60px;">What's causing and not causing the deflation?</h2>
+            </div>
+
+            <div class="flex-center">
+                <div>
+                    <h3>Fact1: Minimum wage is increasing</h3>
+                    <p>Japan's government <span class="red">constantly elevates minimum wages</span>, optimized
+                        prefecture-wise. Slide the slider to see the increasing minimum wage along the timeline.</p>
+                    <div id="minimum_wage_map" style="display:flex;justify-content:center;"></div>
+                </div>
+
+                
+                <div>
+                    <h3>Fact2: Work producitivity is the lowest among G7 countries</h3>
+                    <p>Economists argue that Japan's deflation is <span class="red">caused by its inability to be
+                            productive and creative</span>, leading to non-increasing wages and product price levels.
+                    </p>
+                    <div id="work_productivity_lines"></div>
+                </div>
+
+            </div>
+
+            <div style="margin-top: 10px;margin-bottom:60px;width:100%;">
+                <h3>Fact3: Average Wage is NOT increasing even slighly compared to other countries</h3>
+                <p>The increasing minimum wage doesn't direcly correlate to Japan's average wage. When average wage is
+                    low, people do not have adequate purchasing power, <span class="red">necessiating companies to
+                        decrease porducts/services price level</span>. The below bump chart shows the <span
+                        class="red">dropping ranking, from 5th to 20th</span>, in Japan's average wage compared to OECD
+                    countries, from 2000 to 2022.</p>
+                <div id="avg_wage_bump" style="display:flex; justify-content:center;"></div>
+            </div>
+
+        </div>
     </div>
+    <div style="padding-left:5%">Sources: 
+        <p>1. OECD Statistics (<a href="https://www.e-stat.go.jp/en/node">https://www.oecd.org/</a>)</p>
+        <p>2. e-Stat (<a href="https://www.e-stat.go.jp/en/node">https://www.e-stat.go.jp/en/node</a>)</p>
+    </div>
+    <div style="background-color:grey;width:100%;text-align:center;">©Satoshi Kashima</div>
 </body>
+
+<style>
+    body {
+        font-family: Roboto;
+    }
+
+    .flex-center {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .flex-center-y {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /*for the bump chart slider*/
+    #avg_wage_bump .vega-bind {
+        display: flex;
+        justify-content: center;
+    }
+
+    #cpi_lines .vega-bind {
+        display: flex;
+        justify-content: center;
+    }
+
+    #minimum_wage_map .vega-bind {
+        margin-left: 20%;
+    }
+
+    #avg_wage_bump input[type=range] {
+        width: 500px;
+    }
+
+    #minimum_wage_map input[type=range] {
+        width: 300px;
+    }
+
+    .red {
+        color: red;
+    }
+</style>
+
 </html>

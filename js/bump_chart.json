@@ -1,0 +1,472 @@
+{
+   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+   "title": {
+      "text": "Countries with Top N Annual Average Wages from 2000 to 2022",
+      "font": "Roboto"
+   },
+   "width": 1100,
+   "height": 600,
+   "data": {
+      "url": "avg_wage.csv"
+   },
+   "params": [
+      {
+         "name": "TopN",
+         "value": 20,
+         "bind": {
+            "input": "range",
+            "min": 10,
+            "max": 30,
+            "step": 1,
+            "name": "Top N"
+         }
+      }
+   ],
+   "transform": [
+      {
+         "sort": [
+            {
+               "field": "Value",
+               "order": "descending"
+            }
+         ],
+         "window": [
+            {
+               "op": "rank",
+               "as": "Rank"
+            }
+         ],
+         "groupby": [
+            "Time"
+         ]
+      },
+      {
+         "filter": "datum.Rank <= TopN"
+      }
+   ],
+   "encoding": {
+      "x": {
+         "field": "Time",
+         "type": "ordinal",
+         "sort": [
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2021",
+            "2022"
+         ],
+         "axis": {
+            "labelAngle": 0,
+            "labelFontSize": 12,
+            "titleFontSize": 14,
+            "title": "Time",
+            "titleFont": "Roboto",
+            "labelFont": "Roboto"
+         }
+      },
+      "y": {
+         "field": "Rank",
+         "type": "quantitative",
+         "sort": "descending",
+         "scale": {
+            "domain": [
+               0.5,
+               {
+                  "expr": "TopN+0.5"
+               }
+            ]
+         },
+         "axis": {
+            "domain": false,
+            "grid": false,
+            "ticks": false,
+            "labels": false,
+            "title": false
+         }
+      },
+      "tooltip": [
+         {
+            "field": "Country",
+            "type": "nominal"
+         },
+         {
+            "field": "Time",
+            "type": "ordinal"
+         },
+         {
+            "field": "Value",
+            "type": "quantitative"
+         },
+         {
+            "field": "Rank",
+            "type": "quantitative"
+         }
+      ]
+   },
+   "layer": [
+      {
+         "mark": {
+            "type": "line",
+            "interpolate": "monotone",
+            "strokeWidth": 20
+         },
+         "encoding": {
+            "color": {
+               "field": "Country",
+               "legend": null,
+               "condition": {
+                  "test": "datum['Country'] == 'Japan'",
+                  "value": "red"
+               },
+               "scale": {
+                  "scheme": "tableau20",
+                  "reverse": true
+               }
+            },
+            "size": {
+               "condition": {
+                  "param": "selected",
+                  "empty": false,
+                  "value": 10
+               },
+               "value": 8
+            },
+            "opacity": {
+               "condition": [
+                  {
+                     "param": "clicked",
+                     "empty": false,
+                     "value": 1
+                  },
+                  {
+                     "test": "datum['Country'] == 'Japan'",
+                     "value": 1
+                  }
+               ],
+               "value": 0.3
+            }
+         }
+      },
+      {
+         "params": [
+            {
+               "name": "selected",
+               "select": {
+                  "type": "point",
+                  "on": "click",
+                  "fields": [
+                     "Country"
+                  ]
+               },
+               "bind": "legend"
+            }
+         ],
+         "mark": {
+            "type": "tick",
+            "thickness": 0
+         },
+         "encoding": {
+            "color": {
+               "condition": [
+                  {
+                     "param": "selected",
+                     "empty": false,
+                     "value": "red"
+                  },
+                  {
+                     "test": "datum['Country'] == 'Japan'",
+                     "value": "red"
+                  }
+               ],
+               "field": "Country"
+            },
+            "opacity": {
+               "condition": [
+                  {
+                     "param": "clicked",
+                     "empty": false,
+                     "value": 1
+                  },
+                  {
+                     "test": "datum['Country'] == 'Japan'",
+                     "value": 1
+                  }
+               ],
+               "value": 0.5
+            }
+         }
+      },
+      {
+         "params": [
+            {
+               "name": "clicked",
+               "select": {
+                  "type": "point",
+                  "fields": [
+                     "Country"
+                  ]
+               }
+            }
+         ],
+         "transform": [
+            {
+               "filter": {
+                  "param": "clicked",
+                  "empty": false
+               }
+            }
+         ],
+         "mark": {
+            "type": "text",
+            "yOffset": 20,
+            "fontSize": 20,
+            "fontStyle": "bold",
+            "font": "Roboto"
+         },
+         "encoding": {
+            "text": {
+               "field": "Rank"
+            },
+            "tooltip": [
+               {
+                  "field": "Country",
+                  "type": "nominal"
+               },
+               {
+                  "field": "Time",
+                  "type": "ordinal"
+               },
+               {
+                  "field": "Value",
+                  "type": "quantitative"
+               },
+               {
+                  "field": "Rank",
+                  "type": "quantitative"
+               }
+            ]
+         }
+      },
+      {
+         "transform": [
+            {
+               "filter": "datum['Country'] == 'Japan'"
+            }
+         ],
+         "mark": {
+            "type": "text",
+            "yOffset": -15,
+            "xOffset": 10,
+            "fontSize": 20,
+            "fontStyle": "bold",
+            "font": "Roboto"
+         },
+         "encoding": {
+            "text": {
+               "field": "Rank"
+            },
+            "color": {
+               "value": "black"
+            },
+            "tooltip": [
+               {
+                  "field": "Country",
+                  "type": "nominal"
+               },
+               {
+                  "field": "Time",
+                  "type": "ordinal"
+               },
+               {
+                  "field": "Value",
+                  "type": "quantitative"
+               },
+               {
+                  "field": "Rank",
+                  "type": "quantitative"
+               }
+            ]
+         }
+      },
+      {
+         "transform": [
+            {
+               "filter": {
+                  "field": "Time",
+                  "equal": "2022"
+               }
+            }
+         ],
+         "mark": {
+            "type": "text",
+            "xOffset": 30,
+            "fontSize": 15,
+            "align": "left",
+            "fontStyle": "bold",
+            "font": "Roboto"
+         },
+         "encoding": {
+            "text": {
+               "field": "Country"
+            },
+            "opacity": {
+               "condition": {
+                  "param": "clicked",
+                  "empty": false,
+                  "value": 1
+               },
+               "value": 0.8
+            }
+         }
+      },
+      {
+         "transform": [
+            {
+               "filter": {
+                  "field": "Time",
+                  "equal": "2000"
+               }
+            }
+         ],
+         "mark": {
+            "type": "text",
+            "xOffset": -30,
+            "fontSize": 15,
+            "align": "right",
+            "fontStyle": "bold",
+            "font": "Roboto"
+         },
+         "encoding": {
+            "text": {
+               "field": "Country"
+            },
+            "opacity": {
+               "condition": {
+                  "param": "clicked",
+                  "empty": false,
+                  "value": 1
+               },
+               "value": 0.8
+            }
+         }
+      },
+      {
+         "transform": [
+            {
+               "filter": "datum.Time == 2009 && datum.Country == 'Japan'"
+            }
+         ],
+         "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "middle",
+            "dx": -300,
+            "dy": 120,
+            "fontSize": 18,
+            "fontStyle": "bold",
+            "font": "Roboto"
+         },
+         "encoding": {
+            "text": {
+               "value": "Japan's Average Wage ranking drops from 5th to 20th in 20 years"
+            },
+            "color": {
+               "value": "red"
+            }
+         }
+      },
+      {
+         "transform": [
+            {
+               "filter": "datum.Time == 2021 && datum.Country == 'Korea'"
+            }
+         ],
+         "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "middle",
+            "dx": -480,
+            "dy": 30,
+            "fontSize": 18,
+            "fontStyle": "bold",
+            "font": "Roboto"
+         },
+         "encoding": {
+            "text": {
+               "value": "Korea's Average Wage surpasses Japan's in 2021"
+            },
+            "color": {
+               "value": "black"
+            }
+         }
+      },
+      {
+         "transform": [
+            {
+               "filter": "datum.Time == 2015 && datum.Country == 'Canada'"
+            }
+         ],
+         "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "middle",
+            "dx": -400,
+            "dy": 30,
+            "fontSize": 18,
+            "fontStyle": "bold",
+            "font": "Roboto"
+         },
+         "encoding": {
+            "text": {
+               "value": "Except for Turkey (who is known as having a hyper-inflation economy),"
+            },
+            "color": {
+               "value": "black"
+            }
+         }
+      },
+      {
+         "transform": [
+            {
+               "filter": "datum.Time == 2015 && datum.Country == 'Canada'"
+            }
+         ],
+         "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "middle",
+            "dx": -400,
+            "dy": 50,
+            "fontSize": 18,
+            "fontStyle": "bold",
+            "font": "Roboto"
+         },
+         "encoding": {
+            "text": {
+               "value": "all countries have an increasing trend of average wage."
+            },
+            "color": {
+               "value": "black"
+            }
+         }
+      }
+   ]
+}
