@@ -49,8 +49,8 @@
       "filter": "Attribute_selection == null || datum.Subject== Attribute_selection"
     }
   ],
-  "width": 900,
-  "height": 400,
+  "width": 1000,
+  "height": 500,
   "layer": [
     {
       "encoding": {
@@ -59,7 +59,7 @@
           "type": "ordinal",
           "axis": {
             "title": "Year",
-            "labelAngle": 30,
+            "labelAngle": 0,
             "titleFont": "Roboto",
             "labelFont": "Roboto",
             "titleFontSize": 15,
@@ -79,7 +79,7 @@
           "scale": {
             "domain": [
               70,
-              140
+              145
             ]
           }
         },
@@ -250,7 +250,7 @@
             "font": "Roboto",
             "x": "width",
             "color": "black",
-            "text": "Covid-19"
+            "text": "COVID-19"
           }
         }
       ]
@@ -309,7 +309,8 @@
           "value": "black"
         }
       }
-    },{
+    },
+    {
       "mark": {
         "type": "text",
         "align": "left",
@@ -328,7 +329,8 @@
           "value": "black"
         }
       }
-    },{
+    },
+    {
       "mark": {
         "type": "text",
         "align": "left",
@@ -353,15 +355,75 @@
         "type": "text",
         "align": "left",
         "baseline": "middle",
-        "dx": -300,
-        "dy": 50,
+        "dx": -400,
+        "dy": 80,
         "fontSize": 12,
         "fontStyle": "italic",
         "font": "Roboto"
       },
       "encoding": {
         "text": {
-          "value": "Japan has no inflation at all and some sectors are even decreasing, across time"
+          "value": "Japan has no inflation at all and some sectors are even decreasing, before COVID"
+        },
+        "color": {
+          "value": "red"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 150,
+        "dy": 80,
+        "fontSize": 12,
+        "fontStyle": "italic",
+        "font": "Roboto"
+      },
+      "encoding": {
+        "text": {
+          "value": "Japan does experience a slight cost-push inflation"
+        },
+        "color": {
+          "value": "red"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 150,
+        "dy": 100,
+        "fontSize": 12,
+        "fontStyle": "italic",
+        "font": "Roboto"
+      },
+      "encoding": {
+        "text": {
+          "value": "during/after COVID and the Russian invasion,"
+        },
+        "color": {
+          "value": "red"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 150,
+        "dy": 120,
+        "fontSize": 12,
+        "fontStyle": "italic",
+        "font": "Roboto"
+      },
+      "encoding": {
+        "text": {
+          "value": "caused primarily by external factors (e.g. energy)."
         },
         "color": {
           "value": "red"
@@ -381,7 +443,7 @@
       },
       "encoding": {
         "text": {
-          "value": "From pre- covid/Russian invasion times, "
+          "value": "From pre- COVID/Russian invasion times, "
         },
         "color": {
           "value": "black"

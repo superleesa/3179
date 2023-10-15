@@ -1,6 +1,6 @@
 {
    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-   "title": "Minimum Wage (in Yen) by Prefecture in Japan, from 2002 to 2022",
+   "title": "Hourly Minimum Wage (in Yen) by Prefecture in Japan, from 2002 to 2022",
    "width": 580,
    "height": 580,
    "projection": {
@@ -79,26 +79,6 @@
                }
             ]
          }
-      }, {
-         "mark": {
-           "type": "text",
-           "align": "left",
-           "baseline": "top",
-           "dx": -200,
-           "dy": -20,
-           "fontSize": 14,
-           "font": "Roboto",
-           "fontStyle": "Italic"
-         },
-         "encoding": {
-           "text": {
-             "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-           },
-           "color": {
-             "value": "black"
-           }
-         }
-       }
-      
+      }
    ]
 }

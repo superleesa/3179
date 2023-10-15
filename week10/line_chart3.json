@@ -14,7 +14,7 @@
           "type": "ordinal",
           "axis": {
             "title": "Year",
-            "labelAngle": 30,
+            "labelAngle": 0,
             "titleFont": "Roboto",
             "labelFont": "Roboto",
             "titleFontSize": 15,
