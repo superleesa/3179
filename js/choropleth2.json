@@ -22,14 +22,14 @@
    "layer": [
       {
          "data": {
-            "url": "min_wage_japan_2002_to_2023.csv"
+            "url": "https://raw.githubusercontent.com/superleesa/3179/main/data/min_wage_japan_2002_to_2023.csv"
          },
          "transform": [
             {
                "lookup": "prefecture",
                "from": {
                   "data": {
-                     "url": "japan.topojson",
+                     "url": "https://raw.githubusercontent.com/superleesa/3179/main/js/japan.topojson",
                      "format": {
                         "type": "topojson",
                         "feature": "japan"

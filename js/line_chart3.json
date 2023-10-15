@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "productivity_g7.csv"
+    "url": "https://raw.githubusercontent.com/superleesa/3179/main/data/productivity_g7.csv"
   },
   "title": "Changes in Work Productivity for G7 Countries, from 2000 to 2022",
   "width": 580,

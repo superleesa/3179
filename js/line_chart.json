@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "cpi_g7.csv"
+    "url": "https://raw.githubusercontent.com/superleesa/3179/main/data/cpi_g7.csv"
   },
   "title": "Changes in CPI for G7 Countries, from 2015 to 2022",
   "params": [

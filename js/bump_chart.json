@@ -7,7 +7,7 @@
    "width": 1100,
    "height": 600,
    "data": {
-      "url": "avg_wage.csv"
+      "url": "https://raw.githubusercontent.com/superleesa/3179/main/data/avg_wage.csv"
    },
    "params": [
       {
